@@ -1,0 +1,17 @@
+body {
+    background-color: aquamarine;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: darkgoldenrod;
+}
+
+p {
+    text-align: justify;
+}

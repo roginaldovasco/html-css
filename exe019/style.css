@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-color: cornflowerblue;
+}
+
+#principal {
+    color: white;
+    background-color: brown;
+}
+
+.titulo {
+    color: rgba(0, 0, 255, 0.521);
+}
+
+h2 {
+    color: green;
+}
