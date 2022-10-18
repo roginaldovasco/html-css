@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+    <style>
+        iframe {
+            border: 1px solid black;
+            width: 600px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Navegando com iframes</h1>
+    <ul>
+        <li><a href="paginas-extras/pagina1.html" target="frame">Página 1</a></li>
+        <li><a href="paginas-extras/pagina2.html" target="frame">Página 2</a></li>
+        <li><a href="paginas-extras/pagina3.html" target="frame">Página 3</a></li>
+    </ul>
+    <iframe src="" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1>"></iframe>
+</body>
+</html>

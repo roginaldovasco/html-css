@@ -39,16 +39,10 @@ header > p {
     padding-bottom: 50px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
+#subtitulo {
+    font-size: 0.8em;
+    font-style: italic;
 }
-
-a:hover {
-    text-decoration: underline;
-}
-
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -59,12 +53,13 @@ section {
 }
 
 section.normal {
+    height: 100vh;
     background-color: white;
     color: black;
 }
 
 section.imagem {
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.123);    
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
@@ -74,8 +69,8 @@ section.imagem {
 
 section.imagem > p {
     display: inline-block;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.507);    
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.274);    
 }
 
 section > p {
@@ -83,12 +78,12 @@ section > p {
 }
 
 #img1 {
-    background-image: url(../imagens/background001.jpg);
+    background-image: url(../imagens/img01.jpg);
     text-shadow: 1px 1px 0px black;
 }
 
 #img2 {
-    background-image: url(../imagens/background002.jpg); 
+    background-image: url(../imagens/img02.jpg); 
 }
 
 footer {
@@ -96,4 +91,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    font-size: 0.8em;
+    font-style: italic;
 }
